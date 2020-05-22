@@ -87,8 +87,6 @@ class MusicLibraryController
     if (1..song_list.length).include?(input-1)
       song_from_list = song_list[input-1]
       puts "Playing #{song_from_list.name} by #{song_from_list.artist.name}"
-    else
-      nil
     end
   end
   
