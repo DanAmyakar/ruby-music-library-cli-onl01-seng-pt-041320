@@ -83,6 +83,10 @@ class MusicLibraryController
   def play_song
     puts "Which song number would you like to play?"
     input = gets.strip.to_i
+    Song.all.sort{|a, b| a.name <=> b.name}.each.with_index(1){|s, i|song if input == i}
+    puts ""
+      
+    end
   end
   
   
