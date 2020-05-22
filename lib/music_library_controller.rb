@@ -85,7 +85,7 @@ class MusicLibraryController
     input = gets.strip.to_i
     Song.all.sort{|a, b| a.name <=> b.name}.each.with_index(1){|s, i|song if input == i}
     puts "Playing #{song.name} by #{song.artist.name}"
-    end
+    
   end
   
   
