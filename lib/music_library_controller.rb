@@ -85,6 +85,7 @@ class MusicLibraryController
     input = gets.chomp
     list_songs
     if (1..Song.all.length).include?(input)
+      song = list_songs[input+1]
       
   end
   
