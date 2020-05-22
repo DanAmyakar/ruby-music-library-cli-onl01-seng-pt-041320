@@ -85,7 +85,6 @@ class MusicLibraryController
     input = gets.strip.to_i
     list_songs
     list_songs.length.include?(input-1) ? track = list_songs[input-1] : nil
-    puts "#{track.name} by #{trak.artist.name}"
   end
   
   
