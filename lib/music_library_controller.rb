@@ -59,9 +59,14 @@ class MusicLibraryController
       puts "#{i}. #{g.name}"
     end
   end
+  
   def list_songs_by_artist
+    puts "please enter name of Artist:"
+    
   end
+  
   def list_songs_by_genre
+    puts "please enter name of Genre:"
   end
   def play_song
   end
